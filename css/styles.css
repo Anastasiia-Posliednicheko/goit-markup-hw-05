@@ -812,7 +812,7 @@ ul {
 
 }
 
-.input-checkbox:checked + .text-checkbox .form-field-checkbox-icon {
+.visually-hidden:checked + .text-checkbox > .form-field-checkbox-icon{
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
