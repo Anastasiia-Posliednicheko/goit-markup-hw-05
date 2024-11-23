@@ -569,6 +569,7 @@ p {
 
 
 .email-input{
+    background-color: transparent;
     color: #ffffff;
     padding-left: 16px;
     letter-spacing: 0.04em;
@@ -697,6 +698,7 @@ ul {
 
 .btn-modal:hover,
 .btn-modal:focus{
+    fill: #ffffff;
     background-color: #404BBF;
     border: none;
 }
@@ -739,6 +741,8 @@ ul {
 }
 .form-input:focus{
     border-color: #4D5AE5;
+    
+
 }
 .input-wrapper{
     position: relative;
@@ -761,10 +765,10 @@ ul {
     transform:translateY(-50%);
     position: absolute;
     
+    
 }
-.form-icon:focus {
-    fill: #4D5AE5;
-}
+
+
 .form-comment{
     margin-bottom: 16px;
 }
@@ -785,11 +789,8 @@ ul {
 
 }
 .input-comment:focus{
-    border-color: #4D5AE5;
-}
-
-
-
+    border-color: #4D5AE5;}
+    
 
 
 .form-field-checkbox{
@@ -804,6 +805,12 @@ ul {
     color:#8e8f99;
 
 
+}
+
+.input-class:checked+.label-class>.span-class {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
 }
 .form-field-checkbox-icon{
     width: 16px;
